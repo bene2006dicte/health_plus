@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+
+
+*{
+    padding:0 ;
+    margin: 0;
+      font-family: Inter;
+}
+
+
+
+.sp {
+    color: #E88639;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.contact {
+
+
+    color: white;
+    text-decoration: none;
+    background-color: #2185D7;
+    padding: 10px;
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right:20px ;
+    padding-bottom:-10px ;
+    padding-top:-10px ;
+
+}
+
+.item {
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.entete {
+    background-color:#FFE8D7 ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ 
+}
+
+.entete ul li {
+    display: flex;
+    gap: 40px;
+}
+.Logo {
+    margin: 20px; 
+    border-radius: 20px;
+}
+.Bienvenue {
+    color:#3552AF ;
+    font-weight:bold;
+    font-size: 64px;
+    margin: 40px;
+    text-align: center;
+
+}
+.banner{
+    background-image:url(./Images/dorcteur_ambiance.avif) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1011px;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+}
+.text {
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 70px;  
+   margin-top: 400px;
+}
+
+.item li{
+    margin-right: 20px;
+}
+.Nos{
+    background-color: #D9ECFD;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 80px;
+    
+
+
+}
+
+.spécialités {
+    font-weight: bold;
+    font-size:80px ;
+    color: #03AC42;
+    text-align: center;
+    margin-top:40px ;
+    margin-bottom: -40px;
+    
+   
+}
+.cnp {
+ 
+  margin-left: 80px;
+ 
+}
+.coeur {
+    border-radius: 10px;
+    margin-left:45px ;
+     margin-top:80px ;
+      margin-bottom: -50px;
+    
+}
+.cerveau {
+    border-radius: 10px;
+    margin-left:60px ;
+     margin-top:80px ;
+     margin-bottom: -50px;
+}
+.poumon {
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top:80px ;
+     margin-bottom: -50px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+     font-weight: bold;
+  font-size: 40px;
+}
+.microbe{
+    border-radius: 10px;
+     margin-left:45px ;
+     margin-top:80px ;
+      margin-bottom: -50px
+}
+.tyroïde{
+    border-radius: 10px;
+     margin-left:25px ;
+     margin-top:80px ;
+      margin-bottom: -50px
+}
+.ovaires{
+    border-radius: 10px;
+     margin-left:80px ;
+     margin-top:80px ;
+      margin-bottom: -50px
+}
+.mtg{
+    margin-left: 100px;
+}
+.grid ul li {
+    list-style: none;
+}
+.info{
+    font-weight: bold;
+    font-size: 80px;
+    color: #3552AF;
+    text-align: center;
+    margin-bottom: 20px;
+   
+}
+.service {
+    font-weight: bold;
+    font-size: 40px;
+    color: #03AC42;
+    margin-left: 20px;
+}
+.divers {
+    font-weight: bold;
+    font-size: 36px;
+    color: black;
+}
+.informations{
+     background-color: #E8F0F6;
+    margin: 40px; ;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+.horaires {
+    font-weight: bold;
+    font-size: 40px;
+    color: #03AC42;
+    margin-left: 20px;
+    margin-top:60px ;
+    
+}
+.temps {
+    font-weight: bold;
+    font-size: 36px;
+    color: black;
+}
+.tel {
+    font-weight: bold;
+    font-size: 40px;
+    color: #03AC42;
+    margin-left: 20px;
+    margin-top:150px ;
+
+}
+.num{
+    font-weight: bold;
+    font-size: 36px;
+    color: black;
+    text-decoration: none;
+}
+.équipe{
+    font-weight: bold;
+    font-size: 80px;
+    color: #E88639;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.gryd{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    margin-left: 60px;
+    margin-right: 60px;
+    gap: 40px;
+}
+.DOC1{
+    border-radius: 100%;
+    margin-left: 18px;
+
+   
+  
+}
+.Albert {
+    background-color: #0ABDE7;
+     margin: 0 auto 15px;
+     display: block;
+     padding: 20px;
+     padding-bottom: 40px;
+     border-radius: 20px;
+}
+.koussa{
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+.bert {
+    font-weight:bold ;
+    font-size: 24px;
+    color: #3552AF;
+}
+
+.DOC2{
+    border-radius: 100%;
+    margin-left: 18px;
+    
+}
+.Merveille {
+    background-color: #0ABDE7;
+     margin: 0 auto 15px;
+     display: block;
+     padding: 20px;
+     padding-bottom: 40px;
+     border-radius: 20px;
+}
+.degbe{
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+.dede {
+    font-weight:bold ;
+    font-size: 24px;
+    color: #3552AF;
+}
+.DOC3{
+    border-radius: 100%;
+    margin-left: 18px;
+    
+}
+.Pascal {
+    background-color: #0ABDE7;
+     margin: 0 auto 15px;
+     display: block;
+     padding: 20px;
+     padding-bottom: 40px;
+     border-radius: 20px;
+}
+.tomelan{
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+.toto {
+    font-weight:bold ;
+    font-size: 24px;
+    color: #3552AF;
+}
+.gro{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    margin-left: 60px;
+    margin-right: 60px;
+    gap: 40px;
+    margin-top: 20px;
+}
+.DOC4{
+    border-radius: 100%;
+    margin-left: 18px;
+    
+}
+.Ruth {
+    background-color: #0ABDE7;
+     margin: 0 auto 15px;
+     display: block;
+     padding: 20px;
+     padding-bottom: 40px;
+     border-radius: 20px;
+}
+.assima{
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+.sisi {
+    font-weight:bold ;
+    font-size: 24px;
+    color: #3552AF;
+     }
+
+.DOC5{
+    border-radius: 100%;
+    margin-left: 18px;
+    
+}
+.Damien {
+    background-color: #0ABDE7;
+     margin: 0 auto 15px;
+     display: block;
+     padding: 20px;
+     padding-bottom: 40px;
+     border-radius: 20px;
+}
+.tete{
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+.dada {
+    font-weight:bold ;
+    font-size: 24px;
+    color: #3552AF;
+     }
+    
+.DOC6{
+    border-radius: 100%;
+    margin-left: 18px;
+    
+}
+.Joachim{
+    background-color: #0ABDE7;
+     margin: 0 auto 15px;
+     display: block;
+     padding: 20px;
+     padding-bottom: 40px;
+     border-radius: 20px;
+}
+.kangni{
+    font-weight: bold;
+    font-size: 32px;
+
+
+    color: white;
+    text-align: center;
+}
+.jojo {
+    font-weight:bold ;
+    font-size: 24px;
+    color: #3552AF;
+     }
+.contactus{
+    text-align: center;
+    margin-top: 40px; 
+    margin-bottom: 40px; 
+}  
+.coco{
+    text-decoration: none;
+    background-color: #3552AF;
+    color: black;
+    font-weight:bold ;
+    font-size: 36px;
+    border-radius:50px ;
+    padding: 10px;
+    padding-left:20px;
+    padding-right: 20px;
+
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

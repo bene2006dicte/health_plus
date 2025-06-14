@@ -1,0 +1,141 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Inter;
+}
+
+
+
+.coucou {
+    color: #3552AF ;
+    font-weight: bold;
+    font-size: 64px;
+    text-align: center;
+    padding-top: 40px;
+    
+
+}
+.tactac{
+   background-color: #E8F0F6;
+    padding-left: 50px;
+    padding-right   : 50px;
+      padding-bottom: 50px;
+}
+
+
+.Formulaire{
+    font-weight: bolder;
+    font-size:48px ;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.ligne1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.lastname{
+    background-color: white;
+    outline: none;
+    border: none;
+    padding: 25px;
+    width: 40%;
+    border-radius: 20px;
+}
+
+
+.firstname{
+    background-color: white;
+    outline: none;
+    border: none;
+    padding: 25px;
+    width: 40%;
+    border-radius: 20px;
+}
+
+.email{
+    background-color: white;
+    outline: none;
+    border: none;
+    padding: 25px;
+    /* width: 100%; */
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.telephone{
+    background-color: white;
+    outline: none;
+    border: none;
+    padding: 25px;
+    /* width: 100%; */
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.message{
+    background-color: white;
+    outline: none;
+    border: none;
+    padding: 25px;
+    /* width: 100%; */
+    margin-bottom: 20px;
+    border-radius: 20px;
+    height: 200px;
+    resize: none;
+}
+
+.mybutt{
+    text-align: center;
+   
+}
+.monbouton{
+    padding: 10px;
+    text-align: center;
+    background-color: #3552AF;
+    outline: none;
+    border: none;
+    width: 200px;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    font-size: 24px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.info_left{
+display: flex;
+flex-direction: column;
+/* justify-content: space-around; */
+}
+
+.info_item{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.maps{
+    border: 2px solid  #0ABDE7;
+    padding: 15px;
+    border-radius: 20px;
+}
