@@ -81,8 +81,13 @@
    margin-top: 400px;
 }
 
+.item {
+    gap: 10px;
+}
+
 .item li{
     margin-right: 20px;
+    
 }
 .Nos{
     background-color: #D9ECFD;
